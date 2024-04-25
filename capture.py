@@ -75,6 +75,8 @@ class CaptureImage(QWidget):
                 file.write(name + "\n")
 
             QMessageBox.information(self, "Éxito", "Foto tomada y guardada correctamente")
+
+            exit()
         else:
             QMessageBox.critical(self, "Error", "No se puede acceder a la cámara")
             return

@@ -73,6 +73,7 @@ class CaptureImage(QWidget):
             file.write(name + "\n")
 
         QMessageBox.information(self, "Éxito", "Fotos tomadas y guardadas correctamente")
+        exit()
 
 
 if __name__ == "__main__":
